@@ -4,37 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- Шапка сайта -->
     <header>
       <nav>
+        <a href="./index.html" lang="en"><span>Web</span>Studio</a>
         <ul>
-          <li>
-            <a href="/" lang="en"><span>Web</span>Studio</a>
-          </li>
-          <li><a href="/">Студия</a></li>
+          <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </nav>
+      <div>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </header>
     <main>
-      <!-- Hero -->
+      <!-- Секция Герой -->
       <section>
-        <div>
-          <h1>эффективные решения для вашего бизнеса</h1>
-          <a href="">Заказать услугу</a>
-        </div>
+        <h1>эффективные решения для вашего бизнеса</h1>
+        <a href="">Заказать услугу</a>
       </section>
-      <!-- Skils -->
+      <!-- Секция навыки -->
       <section>
-        <!-- hidden heading -->
-        <h2>Skils</h2>
+        <!-- Скрытый заголовок -->
+        <h2>Навыки</h2>
         <ul>
           <li>
-            <img src="" alt="Спутниковая тарелка" />
+            <img src="./images/antenna.svg" alt="Спутниковая антенна" />
             <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -42,7 +42,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="Часы" />
+            <img src="./images/clock.svg" alt="Часы" />
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -50,7 +50,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="График" />
+            <img src="./images/vector.svg" alt="График" />
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -58,7 +58,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="Космонавт" />
+            <img src="./images/astronaut.svg" alt="Космонавт" />
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -67,134 +67,219 @@
           </li>
         </ul>
       </section>
-      <!-- Description work -->
+      <!-- Чем мы заниамемся -->
       <section>
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <div>
-              <a href=""><h3>Десктопные приложения</h3></a>
-            </div>
+            <img src="./images/notebook.jpg" alt="Ноутбук" />
+            <a href=""><h3>Десктопные приложения</h3></a>
           </li>
           <li>
-            <div>
-              <a href=""><h3>Мобильные приложения</h3></a>
-            </div>
+            <img src="./images/phone.jpg" alt="Смартфон" />
+            <a href=""><h3>Мобильные приложения</h3></a>
           </li>
           <li>
-            <div>
-              <a href=""><h3>Дизайнерские решения</h3></a>
-            </div>
+            <img src="./images/monitor.jpg" alt="Монитор" />
+            <a href=""><h3>Дизайнерские решения</h3></a>
           </li>
         </ul>
       </section>
-      <!-- Team -->
+      <!-- Наша команда -->
       <section>
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <div>
-              <img src="" alt="Джон Смит" />
-              <div>
-                <h4>John Smith</h4>
-                <p>Product Designer</p>
-              </div>
-              <ul lang="en">
-                <li>
-                  <a href="https://www.instagram.com/"
-                    ><img src="" alt="Instagram"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com/"
-                    ><img src="" alt="Twitter"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/"
-                    ><img src="" alt="Facebook"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/"
-                    ><img src="" alt="Linkedin"
-                  /></a>
-                </li>
-              </ul>
-            </div>
+            <img src="./images/john.jpg" alt="Джон Смит" />
+            <h4>John Smith</h4>
+            <p>Product Designer</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="ссылка на instagram"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com/"
+                  aria-label="ссылка на twitter"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  aria-label="ссылка на facebook"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  aria-label="ссылка на linkedin"
+                ></a>
+              </li>
+            </ul>
           </li>
           <li>
-            <div>
-              <img src="" alt="Марта Стюарт" />
-              <div>
-                <h4>Marta Stewart</h4>
-                <p>Frontend Developer</p>
-              </div>
-              <ul>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-                <li><a href="https://www.twitter.com/">Twitter</a></li>
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-              </ul>
-            </div>
+            <img src="./images/marta.jpg" alt="Марта Стюарт" />
+            <h4>Marta Stewart</h4>
+            <p>Frontend Developer</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="ссылка на instagram"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com/"
+                  aria-label="ссылка на twitter"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  aria-label="ссылка на facebook"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  aria-label="ссылка на linkedin"
+                ></a>
+              </li>
+            </ul>
           </li>
           <li>
-            <div>
-              <img src="" alt="Роберт Джекис" />
-              <div>
-                <h4>Robert Jakis</h4>
-                <p>Marketing</p>
-              </div>
-              <ul>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-                <li><a href="https://www.twitter.com/">Twitter</a></li>
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-              </ul>
-            </div>
+            <img src="./images/robert.jpg" alt="Роберт Джекис" />
+            <h4>Robert Jakis</h4>
+            <p>Marketing</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="ссылка на instagram"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com/"
+                  aria-label="ссылка на twitter"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  aria-label="ссылка на facebook"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  aria-label="ссылка на linkedin"
+                ></a>
+              </li>
+            </ul>
           </li>
           <li>
-            <div>
-              <img src="" alt="Мартин До" />
-              <div>
-                <h4>Martin Doe</h4>
-                <p>UI Designer</p>
-              </div>
-              <ul>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-                <li><a href="https://www.twitter.com/">Twitter</a></li>
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-              </ul>
-            </div>
+            <img src="./images/martin.jpg" alt="Мартин До" />
+            <h4>Martin Doe</h4>
+            <p>UI Designer</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="ссылка на instagram"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com/"
+                  aria-label="ссылка на twitter"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  aria-label="ссылка на facebook"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  aria-label="ссылка на linkedin"
+                ></a>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
-      <!-- Customers -->
+      <!-- Постоянные клиенты -->
       <section>
         <h2>Постоянные клиенты</h2>
         <ul>
           <li>
-            <a href=""><img src="" alt="имя компании" /></a>
+            <a href=""><img src="./images/ya&co.svg" alt="имя компании" /></a>
           </li>
           <li>
-            <a href=""><img src="" alt="имя компании" /></a>
+            <a href=""><img src="./images/tgh.svg" alt="имя компании" /></a>
           </li>
           <li>
-            <a href=""><img src="" alt="имя компании" /></a>
+            <a href=""><img src="./images/company.svg" alt="имя компании" /></a>
           </li>
           <li>
-            <a href=""><img src="" alt="имя компании" /></a>
+            <a href=""><img src="./images/fp.svg" alt="имя компании" /></a>
           </li>
           <li>
-            <a href=""><img src="" alt="имя компании" /></a>
+            <a href=""><img src="./images/brand.svg" alt="имя компании" /></a>
           </li>
           <li>
-            <a href=""><img src="" alt="имя компании" /></a>
+            <a href=""><img src="./images/tl.svg" alt="имя компании" /></a>
           </li>
         </ul>
       </section>
-      <footer></footer>
     </main>
+    <!-- Подвал -->
+    <footer>
+      <div>
+        <a href="./index.html" lang="en"><span>Web</span>Studio</a>
+        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
+      <div>
+        <p>Присоединяйтесь</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              aria-label="ссылка на instagram"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/"
+              aria-label="ссылка на twitter"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              aria-label="ссылка на facebook"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              aria-label="ссылка на linkedin"
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p>2020 | Developed by GoIT Students</p>
+      </div>
+    </footer>
   </body>
 </html>
